@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.mg95.labeledshulkers.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TextDisplayEntityAccess",
+    "DisplayEntityAccess",
+    "BlockItemMixin",
+    "DisplayEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

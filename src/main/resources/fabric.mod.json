@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "labeledshulkers",
+  "version": "${version}",
+  "name": "LabeledShulkers",
+  "description": ":3",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/labeledshulkers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.mg95.labeledshulkers.client.LabeledShulkersClient"
+    ],
+    "main": [
+      "dev.mg95.labeledshulkers.LabeledShulkers"
+    ]
+  },
+  "mixins": [
+    "labeledshulkers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}",
+    "colon3lib": ">=1.1"
+  }
+}
